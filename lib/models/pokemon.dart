@@ -3,8 +3,8 @@ class Pokemon {
   final String name;
   final String imageUrl;
   final int attack;
-  final bool isMatched;
-  final bool isFlipped;
+  bool isMatched;
+  bool isFlipped;
 
   Pokemon({
     required this.id,
@@ -36,7 +36,6 @@ class Pokemon {
       attack: attackStat,
       isMatched: false,
       isFlipped: false,
-
     );
   }
 }
