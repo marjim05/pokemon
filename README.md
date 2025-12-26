@@ -1,3 +1,3 @@
-# pokemon
+# Pokedex
 
-A new Flutter project.
+A new Flutter project for a pokemon game.
